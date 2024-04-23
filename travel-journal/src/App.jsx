@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import './App.css'
 import data from './data'
 import Card from './components/Card'
+import Footer from './components/Footer'
 
 export default function App() {
     const cards = data.map(item => { 
@@ -20,7 +21,7 @@ export default function App() {
       <main className="cards">
         {cards} 
       </main>
-      
+      <Footer />
     </>
   )
 }
