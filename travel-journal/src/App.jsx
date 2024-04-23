@@ -1,16 +1,26 @@
-import journalImg from '/journalImg.svg'
+import Navbar from './components/Navbar'
 import './App.css'
-import Card from './Card'
+import data from './data'
+import Card from './components/Card'
 
 export default function App() {
+    const cards = data.map(item => { 
+      return (
+        <Card 
+          key= {item.id}
+          item= {item}
+        />
+      )
+    
+    })
 
-  return (
+    return (
     <>
-      <main className="hero-content">
-      <img src={journalImg} className="logo" alt="Journal images" />
-      <h1>European Travel Journal</h1>
+      <Navbar />
+      <main className="cards">
+        {cards} 
       </main>
-      < Card />
+      
     </>
   )
 }
