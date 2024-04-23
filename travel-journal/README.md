@@ -15,6 +15,8 @@ For a first time project it has had it's ups and downs. I will keep learning and
 - [Scrimba](https://scrimba.com/learn/frontend)
 
 # UP NEXT
+Making it up to date React. I have not fully learned the new React as teaching is from previous versions. I will implement React 18.
+
 I would like to create this into actual blog or travel journal of my experiences. Not just Europe but around the world. Adding what I actually did instead of just landmarks visited. 
 
 # AUTHOR
